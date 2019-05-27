@@ -1,0 +1,21 @@
+.table {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.table .cell {
+  border: 2px solid black;
+}
+
+.deuxieme-ligne th {
+  text-align: center;
+}
+
+.row th,
+.row td {
+  border: 3px solid black;
+}
+
+.second-table {
+  border-collapse: collapse;
+}

@@ -1,0 +1,71 @@
+<!--emmet ? -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Deux tableaux</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div>
+      <h1>Un tableau simple</h1>
+      <table class="table">
+        <tr>
+          <th class="cell">As</th>
+          <th class="cell">Trèfle</th>
+        </tr>
+        <tr>
+          <td class="cell">Carreaux</td>
+          <td class="cell">Coeur</td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <h1>Un exemple un peu plus complexe</h1>
+      <table class="second-table">
+        <thead>
+          <tr class="row">
+            <th colspan="2"></th>
+            <th colspan="2">Premier groupe</th>
+            <th colspan="2">Deuxième groupe</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="deuxieme-ligne row">
+            <th></th>
+            <th>Personne</th>
+            <th>Singulier</th>
+            <th>Pluriel</th>
+            <th>Singulier</th>
+            <th>Pluriel</th>
+          </tr>
+          <tr class="row">
+            <td rowspan="3">présent</td>
+            <td>1</td>
+            <td>je code</td>
+            <td>nous codons</td>
+            <td>je réussis</td>
+            <td>nous réussissons</td>
+          </tr>
+          <tr class="row">
+            <td>2</td>
+            <td>tu codes</td>
+            <td>vous codez</td>
+            <td>tu réussis</td>
+            <td>vous réussissez</td>
+          </tr>
+          <tr class="row">
+            <td>3</td>
+            <td>elle code</td>
+            <td>elles codent</td>
+            <td>elle réussit</td>
+            <td>elles réussissent</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
